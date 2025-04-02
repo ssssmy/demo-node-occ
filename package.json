@@ -1,0 +1,37 @@
+{
+  "name": "@demo/demo-node-occ",
+  "version": "1.0.0",
+  "description": "Node.js native addon with C++ add function",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "scripts": {
+    "install": "node-gyp rebuild",
+    "build": "node-gyp rebuild --target_arch=x64 --target_platform=win32",
+    "clean": "node-gyp clean"
+  },
+  "keywords": [
+    "native",
+    "addon",
+    "c++",
+    "node-gyp"
+  ],
+  "engines": {
+    "node": "16.20.0"
+  },
+  "author": "demo",
+  "license": "MIT",
+  "dependencies": {
+    "node-addon-api": "^8.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.17",
+    "node-gyp": "^11.2.0",
+    "typescript": "^5.8.2"
+  },
+  "files": [
+    "binding.gyp",
+    "src/",
+    "index.js",
+    "index.d.ts"
+  ]
+}

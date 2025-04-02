@@ -1,0 +1,12 @@
+{
+  "description": "A comprehensive C++ project template using CMake build system. Provides a modern project structure with separate source and header directories.",
+  "required_fields": [],
+  "required_files": [
+    "src/main.cpp",
+    "CMakeLists.txt"
+  ],
+  "lang": "C++",
+  "framework": "C++",
+  "style": "cpp_template",
+  "scene": "default_cpp_project"
+} 
